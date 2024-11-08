@@ -1,6 +1,6 @@
 {
-  "name": "leaflet",
-  "version": "1.9.2",
+  "name": "@eurocamp/leaflet",
+  "version": "1.9.5",
   "homepage": "https://leafletjs.com/",
   "description": "JavaScript library for mobile-friendly interactive maps",
   "devDependencies": {
@@ -59,7 +59,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Leaflet/Leaflet.git"
+    "url": "git+https://github.com/Eurocamp/Leaflet.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "gis",
